@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1681673449544" clover="3.2.0">
+  <project timestamp="1681673449544" name="All files">
+    <metrics statements="27" coveredstatements="26" conditionals="12" coveredconditionals="11" methods="15" coveredmethods="15" elements="54" coveredelements="52" complexity="0" loc="27" ncloc="27" packages="2" files="4" classes="4"/>
+    <package name="components">
+      <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="11" methods="12" coveredmethods="12"/>
+      <file name="CustomAlert.jsx" path="/root/programing/challenges/Toolbox/frontend/src/components/CustomAlert.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="Datatable.jsx" path="/root/programing/challenges/Toolbox/frontend/src/components/Datatable.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+      </file>
+      <file name="SelectFilename.jsx" path="/root/programing/challenges/Toolbox/frontend/src/components/SelectFilename.jsx">
+        <metrics statements="10" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="6"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.files">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="filesSlice.js" path="/root/programing/challenges/Toolbox/frontend/src/features/files/filesSlice.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
