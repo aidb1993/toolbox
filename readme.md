@@ -40,6 +40,10 @@ To run the tests, run the following command:
 
 `npm run test`
 
+To run the Standard Lint, run the following command:
+
+`npm run lint`
+
 #### Frontend
 
 To start the frontend server, navigate to the frontend folder and run the following command:

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "mocha src/test"
+    "test": "mocha src/test",
+    "lint": "npx standard"
   },
   "author": "",
   "license": "ISC",
