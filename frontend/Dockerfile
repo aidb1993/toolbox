@@ -2,7 +2,7 @@
 FROM node:14-alpine
 
 # Set the working directory
-WORKDIR /frontend
+WORKDIR /src
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
@@ -13,10 +13,10 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
-EXPOSE 5173
-
 # Start the application
 CMD [ "npm", "run" , "dev" ]
+
+EXPOSE 3001
 
 
 

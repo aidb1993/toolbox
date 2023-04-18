@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "jest --env=jsdom --coverage"
+    "test": "jest --env=jsdom"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",

@@ -69,13 +69,13 @@ const listFiles = async () => {
         Authorization: bearerToken
       }
     })
-    const regex = /^test(\d+)\.csv$/;
+    const regex = /^test(\d+)\.csv$/
 
     const sortedFiles = fileList.data.files.sort((a, b) => {
-    const numA = parseInt(a.match(regex)[1]);
-    const numB = parseInt(b.match(regex)[1]);
-    return numA - numB;
-    });
+      const numA = parseInt(a.match(regex)[1])
+      const numB = parseInt(b.match(regex)[1])
+      return numA - numB
+    })
 
     return { data: sortedFiles, status: 200 }
   } catch (error) {
@@ -94,7 +94,7 @@ const getFilesByFileName = async (fileName) => {
       return { status: 404, data: 'File is empty' }
     }
     return {
-      data: data,
+      data,
       status: 200
     }
   } catch (error) {
